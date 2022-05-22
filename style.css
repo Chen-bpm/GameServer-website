@@ -1,0 +1,17 @@
+body{
+	background-color:  rgb(84, 245, 10);   
+}
+a{
+	color: tomato;
+	font-size: 50;
+}
+.big{
+	font-size: 20;
+}
+		.box-main{
+	border: solid;
+	background-color: rgb(158, 236, 12);
+	border-width: 5px;
+	border-color: hsl(130, 91%, 14%);
+	margin-top: 200;
+}
