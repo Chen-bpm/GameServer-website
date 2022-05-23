@@ -6,12 +6,32 @@ a{
 	font-size: 50;
 }
 .big{
-	font-size: 20;
+	font-size: 30px;
+	text-align: center;
 }
-		.box-main{
+.box-main{
 	border: solid;
+	border-width: 4px;
 	background-color: rgb(158, 236, 12);
-	border-width: 5px;
 	border-color: hsl(130, 91%, 14%);
 	margin-top: 200;
+}
+.server{
+	border: solid;
+	border-width: 1px;
+	background-color: rgb(195, 236, 12);
+	border-color: hsl(130, 91%, 14%);
+	margin: 0 auto;
+	width: 600px;
+}
+.center{
+	text-align: center;
+}
+.we{
+	border: solid;
+	border-width: 4px;
+	background-color: rgb(99, 219, 18);   
+	border-color: hsl(130, 91%, 14%);
+	margin: 0 auto;
+	width: 1500px;
 }
