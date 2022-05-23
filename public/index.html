@@ -10,7 +10,7 @@
   </head>
   <body>
     <h1 class="center">Leon的游戏服务器</h1>
-    <hr color="red">
+    <hr color="red" />
     <br />
     <br />
     <div class="box-main">
@@ -22,7 +22,8 @@
       </p>
       <p>
         爱发电：<a href="https://afdian.net/@Leon_alexander"
-          >https://afdian.net/@Leon_alexander</a>
+          >https://afdian.net/@Leon_alexander</a
+        >
       </p>
       <p>
         这里是啰嗦，是一名垃圾，学的好的语言只有H5，而其他是什么都会一点(指只会一点超级基础的php,js,汇编语言,lua和稍微熟的C,C++)
@@ -32,11 +33,40 @@
       <p>前端主要编写者：luosuo39(啰嗦) qq:2903310208</p>
       <p>QQ群:971454372 欧罗巴专业团队</p>
       <p>群内有潜渊症优化指南和潜渊症mod开发整合，具体请看群公告</p>
-        <br />
-        <p>今日歌曲：<span id="music"></span></p>
-        <input type="button" value="播放" id="start">
-        <input type="button" value="暂停" id="stop">
-        <br />
+      <br />
+      <audio
+        src="./src/music/autoplay-music1.mp3"
+        controls=""
+        preload
+        id="music1"
+        hidden
+      ></audio>
+      <audio
+        src="./src/music/autoplay-music2.mp3"
+        controls=""
+        preload
+        id="music2"
+        hidden
+      ></audio>
+      <audio
+        src="./src/music/autoplay-music3.mp3"
+        controls=""
+        preload
+        id="music3"
+        hidden
+      ></audio>
+      <audio
+        src="./src/music/autoplay-music4.mp3"
+        controls=""
+        preload
+        id="music4"
+        hidden
+      ></audio>
+      <p>今日歌曲：<span id="music"></span></p>
+      <button id="bf" onclick="play();">播放/暂停</button>
+      <button id="bf" onclick="rplay();">重新播放</button>
+      <script type="text/javascript" src="./js/musicplay.js"></script>
+      <br />
 
       <div class="we">
         <h4 class="big">服务器列表</h4>
@@ -64,7 +94,7 @@
 
         <div class="server">
           <h3 id="Mincaraft" class="big">MC服务器新人必看</h3>
-          <br>
+          <br />
           <p>版本:1.16.5</p>
           <p>
             由于游玩人数较少，所以Leon可能不是经常开，如果需要游玩，请联系Leon！
@@ -76,7 +106,7 @@
 
         <div class="server">
           <h3 id="Barotrauma" class="big">潜渊症服务器新人必看</h3>
-          <br>
+          <br />
           <p>
             1. QQ频道欢迎加入:<a
               href="https://qun.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&appChannel=share&inviteCode=1W4t20Q&appChannel=share&businessType=9&from=246610&biz=kaqq"
@@ -85,9 +115,11 @@
           </p>
           <p>
             2.Discord服务器欢迎加入：<a href="https://discord.gg/7xypD62wyq">
-              https://discord.gg/7xypD62wyq</a></p>
+              https://discord.gg/7xypD62wyq</a
+            >
+          </p>
         </div>
-        <br>
+        <br />
       </div>
       <br />
     </div>

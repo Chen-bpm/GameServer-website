@@ -1,3 +1,7 @@
 # vscode
 /.vscode
+
 /node_modules
+/mdocs
+
+/public/indexbak.html
